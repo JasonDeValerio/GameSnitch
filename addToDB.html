@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<title>Add to DB</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles_main.css" />
+	<link rel="stylesheet" href="styles_results.css" />
+	<link rel="stylesheet" href="styles_game.css" />
+</head>
+
+<body>
+	<div id="main_page">
+		<div class="MiddleWrapper">
+			<p class="MiddleText1">
+				Welcome to Game Snitch Expansion!
+			</p>
+			<h1 id="test"></h1>
+			<p class="MiddleText2">
+				Please type the title of the game you want add to the database!
+			</p>
+			<div class="MiddleSearch">
+				<form id="search_form" class="ResultInput" action="fillDB.php" method="POST">
+					<input type="text" id="search_bar" name="search_bar" placeholder="Enter Text" size="70" onfocus="this.value=''" class="MainInput" />
+					<input type="submit" value="ADD!" />
+				</form>
+			</div>
+		</div>
+	</div>

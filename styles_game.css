@@ -1,0 +1,40 @@
+#game_page{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	background-color:#2e2e2d;
+	color: white;
+}
+.GameImage{
+	display:inline-block;
+	padding-top:2%;
+	padding-left:10%;
+}
+.TopDescription{
+	display:inline-block;
+	padding-left:5%;
+}
+.GameTitle{
+	text-align:center;
+	width: 100%;
+}
+.WebsiteLabel{
+	font-weight:bold;
+}
+.game_website{
+	padding-left:10%;
+}
+.ReleaseLabel{
+	font-weight:bold;
+}
+.game_release{
+	padding-left:10%;
+}
+.Bottom{
+	padding-left:10%;
+	padding-right:10%;
+}
+.DescriptionLabel{
+	font-weight:bold;
+}

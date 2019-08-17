@@ -1,0 +1,31 @@
+body{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	background-color:#2e2e2d;
+}
+.MiddleWrapper{
+	padding-top:15%;
+}
+.MiddleText1{
+	text-align:center;
+	color:#ffffff;
+}
+.MiddleText2{
+	text-align:center;
+	color:#ffffff;
+}
+.MiddleSearch{
+	padding-top:10px;
+	margin: auto;
+ 	width: 70%;
+	padding: 10px;
+	text-align:center;
+}
+.MainInput{
+	display:inline-block;
+}
+.MainSearch{
+	display:inline-block;
+}
